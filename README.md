@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
 
-## Project info
+# Rang - Real-Time Collaborative Drawing App
 
-**URL**: https://lovable.dev/projects/8d6c4165-c3a2-46b5-b21e-3f495baad8d0
+Rang is a vibrant, Holi-inspired collaborative drawing application that allows multiple users to draw together in real-time. Named after the Hindi word for "color," Rang brings the joyful spirit of the Holi festival to digital canvas collaboration.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Simple Authentication**: Join with just a nickname - no complex signup required
+- **Room Creation**: Create or join drawing rooms to collaborate with friends
+- **Real-Time Collaboration**: See others drawing in real-time with Convex real-time features
+- **Drawing Tools**:
+  - Brushes with adjustable sizes and colors
+  - Eraser tool
+  - Canvas clearing (for room owners)
+  - Download finished artwork as PNG
+- **User Presence**: See who's currently drawing and who's in the room
+- **Responsive Design**: Works on desktop, tablet, and mobile devices
 
-**Use Lovable**
+## Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8d6c4165-c3a2-46b5-b21e-3f495baad8d0) and start prompting.
+- **Frontend**: React.js with TypeScript
+- **Real-Time Backend**: Convex
+- **Styling**: Tailwind CSS with custom Holi-inspired color palette
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Set up Convex:
+   - Create a Convex account at [convex.dev](https://convex.dev)
+   - Initialize Convex in your project: `npx convex dev`
+4. Start the development server: `npm run dev`
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## How It Works
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Enter your nickname and create or join a room
+2. Use the drawing tools at the bottom of the screen to choose colors and brush sizes
+3. Draw on the canvas - everyone in the room will see your strokes in real-time
+4. Room owners can clear the canvas, and anyone can download the drawing
+5. See who's currently drawing through the user list in the sidebar
 
-Follow these steps:
+## Color Palette
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+The app features a vibrant Holi-inspired color palette:
+- Purple: #9b87f5
+- Pink: #ff3f8e
+- Blue: #33C3F0
+- Green: #59e6a3
+- Yellow: #ffd965
+- Orange: #F97316
+- Red: #ea384c
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8d6c4165-c3a2-46b5-b21e-3f495baad8d0) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Enjoy collaborative drawing with Rang!
